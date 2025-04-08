@@ -1,0 +1,70 @@
+/* General reset and font setup */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", serif;
+}
+
+body {
+    margin: 0;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    justify-content: space-between;
+    padding: 10px 20px;
+    z-index: 1000;
+    transition: background-color 0.3s; /* Smooth transition for scroll effect */
+}
+
+nav h1 {
+    color: black;
+    margin-left: 10px;
+}
+
+.nav-links {
+    text-align: right;
+}
+
+.nav-links ul {
+    list-style: none;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.home{
+    min-height: 100vh;
+    padding: 50px;
+    padding-top: 300px;
+    text-align: center;
+    color: rgb(220, 87, 87);
+    background-color: #a39f9f;
+}
+.About{
+    min-height: 100vh;
+    padding-top: 300px;
+    text-align: center;
+    color: rgb(220, 87, 87);
+    background-color: white;
+}
+.Contact {
+    min-height: 100vh;
+    padding-top: 300px;
+    text-align: center;
+    color: rgb(220, 87, 87);
+    background-color: #a39f9f;
+}
